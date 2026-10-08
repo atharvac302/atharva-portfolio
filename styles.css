@@ -793,6 +793,12 @@ textarea.form-input {
     display: none;
   }
 
+  .mobile-only-cta {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+  }
+
   .hero-actions {
     flex-direction: column;
     align-items: center;
@@ -811,7 +817,7 @@ textarea.form-input {
   }
 
   .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .contact-grid {
